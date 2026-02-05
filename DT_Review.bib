@@ -46,6 +46,24 @@
   abstract = {There has been significant development in metal additive manufacturing (MAM) technology over the past few decades, and considerable progress has been made in understanding how various processes and their parameters influence the properties of printed metallic parts. Despite this, the knowledge concerning its characteristics has been dispersed across a variety of publications and sources, making it difficult to gain a comprehensive understanding of the entire field, especially for businesses interested in additive manufacturing (AM). In order to bridge this gap, periodic reviews encompassing state-of-the-art as the whole are necessary. Therefore, this article provides a comprehensive overview of the essential features of MAM techniques based on the most recent scientific knowledge. It explores emerging research on four of the most significant technologies, including material extrusion (ME), binder jetting (BJ), powder bed fusion (PBF), and directed energy deposition (DED). As well as providing an outline of fundamental process characteristics, ongoing efforts to optimize them and current challenges, it also highlights gaps in understanding and future research and development needs. A significant feature of this review is the provision of substantial documentation regarding the mechanical properties of materials processed by a variety of commercial systems, including a variety of novel hybrid additive manufacturing (HAM) machines. This is accompanied by an investigation into the most recent works done to characterize the environmental impact along with a conceptual framework for improving the energy efficiency (EE) of the manufacturing process. As a result of reporting on both the characteristics of several MAM processes along with their sustainability features in one integrated article, it is anticipated that this information will serve as a valuable resource for both the academic and manufacturing communities to better appreciate and understand what differentiates MAM from traditional manufacturing (TM) processes, thus facilitating its future advancement and adoption.}
 }
 
+@article{aydoganReviewSituDetection2024,
+  title = {Review of {{In Situ Detection}} and {{Ex Situ Characterization}} of {{Porosity}} in {{Laser Powder Bed Fusion Metal Additive Manufacturing}}},
+  author = {Aydogan, Beytullah and Chou, Kevin},
+  date = {2024-06},
+  journaltitle = {Metals},
+  volume = {14},
+  number = {6},
+  pages = {669},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  issn = {2075-4701},
+  doi = {10.3390/met14060669},
+  url = {https://www.mdpi.com/2075-4701/14/6/669},
+  urldate = {2026-02-05},
+  abstract = {Over the past decade, significant research has focused on detecting abnormalities in metal laser powder bed fusion (L-PBF) additive manufacturing. Effective online monitoring systems are crucial for enhancing process stability, repeatability, and the quality of final components. Therefore, the development of in situ detection mechanisms has become essential for metal L-PBF systems, making efficient closed-loop control strategies to adjust process parameters in real time vital. This paper presents an overview of current in situ monitoring systems used in metal L-PBF, complemented by ex situ characterizations. It discusses in situ techniques employed in L-PBF and evaluates the applicability of commercial systems. The review covers optical, thermal, acoustic, and X-ray in situ methods, along with destructive and non-destructive ex situ methods like optical, Archimedes, and X-ray characterization techniques. Each technique is analyzed based on the sensor used for defect detection and the type or size of defects. Optical in situ monitoring primarily identifies large defects from powder bed abnormalities, while thermal methods detect defects as small as 100 µm and keyholes. Thermal in situ detection techniques are notable for their applicability to commercial devices and efficacy in detecting subsurface defects. Computed tomography scanning excels in locating porosity in 3D space with high accuracy. This study also explores the advantages of multi-sensor in situ techniques, such as combining optical and thermal sensors, and concludes by addressing current research needs and potential applications of multi-sensor systems.},
+  langid = {english},
+  keywords = {additive manufacturing,ex situ characterization,in situ monitoring,laser powder bed fusion,porosity detection}
+}
+
 @inproceedings{bauerMultiModalArtificialIntelligence2023,
   title = {Multi-{{Modal Artificial Intelligence}} in {{Additive Manufacturing}}: {{Combining Thermal}} and {{Camera Images}} for {{3D-Print Quality Monitoring}}:},
   shorttitle = {Multi-{{Modal Artificial Intelligence}} in {{Additive Manufacturing}}},
@@ -92,8 +110,7 @@
   url = {https://www.mdpi.com/2504-4494/8/1/7},
   urldate = {2026-02-04},
   abstract = {Low performance is considered one of the main drawbacks of laser powder bed fusion (LPBF) technology. In the present work, the effect of the AlSi10Mg powder layer thickness on the laser melting process was investigated to improve the LPBF building rate. A high-fidelity simulation of the melt pool formation was performed for different thicknesses of the powder bed using the Kintech Simulation Software for Additive Manufacturing (KiSSAM, version cd8e01d) developed by the authors. The powder bed after the recoating operation was obtained by the discrete element method. The laser energy deposition on the powder particles and the substrate was simulated by ray tracing. For the validation of the model, an experimental analysis of single tracks was performed on two types of substrates. The first substrate was manufactured directly with LPBF technology, while the second was cast. The simulation was carried out for various combinations of process parameters, predominantly with a high energy input, which provided a sufficient remelting depth. The calculations revealed the unstable keyhole mode appearance associated with the low absorptivity of the aluminum alloy at a scanning speed of 300 mm/s for all levels of the laser power (325–375 W). The results allowed formulating the criteria for the lack of fusion emerging during LPBF with an increased layer thickness. This work is expected to provide a scientific basis for the analysis of the maximum layer thickness via simulation to increase the performance of the technology.},
-  langid = {english},
-  file = {C:\Users\tamzi\Zotero\storage\RE9GIFAK\Bogdanova et al. - 2024 - Mesoscale Simulation of Laser Powder Bed Fusion with an Increased Layer Thickness for AlSi10Mg Alloy.pdf}
+  langid = {english}
 }
 
 @article{chenMultisensorFusionbasedDigital2023,
@@ -124,6 +141,42 @@
   urldate = {2026-01-27},
   abstract = {Digital Twin -- a virtual replica of a physical system enabling real-time monitoring, model updating, prediction, and decision-making -- combined with recent advances in machine learning, offers new opportunities for proactive control strategies in autonomous manufacturing. However, achieving real-time decision-making with Digital Twins requires efficient optimization driven by accurate predictions of highly nonlinear manufacturing systems. This paper presents a simultaneous multi-step Model Predictive Control (MPC) framework for real-time decision-making, using a multivariate deep neural network, named Time-Series Dense Encoder (TiDE), as the surrogate model. Unlike conventional MPC models which only provide one-step ahead prediction, TiDE is capable of predicting future states within the prediction horizon in one shot (multi-step), significantly accelerating the MPC. Using Directed Energy Deposition (DED) additive manufacturing as a case study, we demonstrate the effectiveness of the proposed MPC in achieving melt pool temperature tracking to ensure part quality, while reducing porosity defects by regulating laser power to maintain melt pool depth constraints. In this work, we first show that TiDE is capable of accurately predicting melt pool temperature and depth. Second, we demonstrate that the proposed MPC achieves precise temperature tracking while satisfying melt pool depth constraints within a targeted dilution range (10\%--30\%), reducing potential porosity defects. Compared to Proportional--Integral--Derivative (PID) controller, the MPC results in smoother and less fluctuating laser power profiles with competitive or superior melt pool temperature control performance. This demonstrates the MPC's proactive control capabilities, leveraging time-series prediction and real-time optimization, positioning it as a powerful tool for future Digital Twin applications and real-time process optimization in manufacturing.},
   keywords = {Additive manufacturing,Deep neural network,Digital Twin,Directed energy deposition,Model Predictive Control,Time-series}
+}
+
+@article{chernyshikhinStudyResolutionFactors2022,
+  title = {The {{Study}} on {{Resolution Factors}} of {{LPBF Technology}} for {{Manufacturing Superelastic NiTi Endodontic Files}}},
+  author = {Chernyshikhin, Stanislav V. and Pelevin, Ivan A. and Karimi, Farzad and Shishkovsky, Igor V.},
+  date = {2022-01},
+  journaltitle = {Materials},
+  volume = {15},
+  number = {19},
+  pages = {6556},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  issn = {1996-1944},
+  doi = {10.3390/ma15196556},
+  url = {https://www.mdpi.com/1996-1944/15/19/6556},
+  urldate = {2026-02-05},
+  abstract = {Laser Powder Bed Fusion (LPBF) technology is a new trend in manufacturing complex geometric structures from metals. This technology allows producing topologically optimized parts for aerospace, medical and industrial sectors where a high performance-to-weight ratio is required. Commonly the feature size for such applications is higher than 300–400 microns. However, for several possible applications of LPBF technology, for example, microfluidic devices, stents for coronary vessels, porous filters, dentistry, etc., a significant increase in the resolution is required. This work is aimed to study the resolution factors of LPBF technology for the manufacturing of superelastic instruments for endodontic treatment, namely Self-Adjusting Files (SAF). Samples of thin walls with different incline angles and SAF samples were manufactured from Nickel-Titanium pre-alloyed powder with a 15–45 μm fraction. The printing procedure was done using an LPBF set-up equipped with a conventional ytterbium fiber laser with a nominal laser spot diameter of 55 microns. The results reveal physical, apparatus, and software factors limiting the resolution of the LPBF technology. Additionally, XRD and DSC tests were done to study the effect of single track based scanning mode manufacturing on the phase composition and phase transformation temperatures. Found combination of optimal process parameters including laser power of 100 W, scanning speed of 850 mm/s, and layer thickness of 20 μm was suitable for manufacturing SAF files with the required resolution. The results will be helpful for the production of NiTi micro objects based on periodic structures both by the LPBF and μLPBF methods.},
+  langid = {english},
+  keywords = {high resolution,laser powder bed fusion,Nickel-Titanium,Nitinol,selective laser melting,self-adjusting files,μLPBF}
+}
+
+@article{deepPreliminaryManufacturabilityEvaluation2025,
+  title = {Preliminary Manufacturability Evaluation of Complex Geometrical Parts Based on Layer Thickness in the Metal Powder Bed Fusion Process},
+  author = {Deep, Akash and Miri Beidokhti, Mojtaba and Piili, Heidi},
+  date = {2025-11-01},
+  journaltitle = {Progress in Additive Manufacturing},
+  shortjournal = {Prog Addit Manuf},
+  volume = {10},
+  number = {11},
+  pages = {8941--8961},
+  issn = {2363-9520},
+  doi = {10.1007/s40964-025-01202-5},
+  url = {https://doi.org/10.1007/s40964-025-01202-5},
+  urldate = {2026-02-05},
+  abstract = {Powder bed fusion of metals using a laser beam (PBF-LB/M) is a widely adopted additive manufacturing (AM) technique, particularly effective for producing complex geometries and thin-walled structures. While thin powder layers enable high precision and fine surface finishes, they also reduce manufacturing speed, creating a trade-off between quality and productivity. This study explores the relationship between geometrical complexity and manufacturability in PBF-LB/M by developing a specialized numerical framework. A comprehensive review of existing manufacturability evaluation methods, which focusses on feature-based and knowledge-based approaches is presented, with applications across the aerospace, biomedical, and automotive industries. The study highlights the importance of layer thickness as a key process parameter and conducts a preliminary evaluation of its impact on building time and manufacturability. The proposed framework provides step-by-step guidance to support early-stage design decisions, allowing optimization of part geometry for reduced cycle time and cost. Initial validation is performed using industrial case studies and build-time simulations using Aconity and Netfabb software. Although the current focus is on layer thickness, the framework sets the groundwork for future studies that incorporate broader process parameters, contributing to improved manufacturability evaluation and decision-making in AM.},
+  langid = {english},
+  keywords = {Additive manufacturing,Complex geometries,Layer thickness,PBF-LB/M manufacturability}
 }
 
 @article{dumanMODELINGIOTBASEDADDITIVE2023,
@@ -177,6 +230,18 @@
   pages = {252--284},
   doi = {10.3221/IGF-ESIS.53.21},
   abstract = {The increasing interest in additively manufactured metallic parts from industry has issued a formidable challenge to the academic and scientific world that is asked to design new alloys, optimize process parameters and geometry as well as guarantee the reliability of a new generation of load-bearing components. Unfortunately, understanding the interaction between different phenomena associated to metal-additive manufacturing processes is a very difficult task. In this scenario, numerical modelling emerges as a valid technique to face problems related to the influence of process parameters on metallurgical and mechanical properties of additively manufactured components. This contribution is aimed at summarizing the most important outcomes about metal-additive manufacturing process obtained via numerical simulation with particular reference to powder bed fusion techniques. The fundamentals of additive manufacturing numerical simulation will be also explained in detail. Thermal, metallurgical as well as mechanical aspects are covered.}
+}
+
+@article{foudaStudyPowderSpreading2019,
+  title = {A {{DEM}} Study of Powder Spreading in Additive Layer Manufacturing},
+  author = {Fouda, Yahia and Bayly, Andrew},
+  date = {2019-11-15},
+  journaltitle = {Granular Matter},
+  shortjournal = {Granular Matter},
+  volume = {22},
+  doi = {10.1007/s10035-019-0971-x},
+  abstract = {In this paper, discrete element method simulations were used to study the spreading of an idealised, blade based, powder coating system representative of the spreading of spherical, mono-sized, non-cohesive titanium alloy (Ti6AlV4) particles in additive layer manufacturing applications. A vertical spreader blade was used to accelerate a powder heap across a horizontal surface, with a thin gap between the blade and the surface, resulting in the deposition of a thin powder layer. The results showed that it is inevitable to deposit a powder layer with a lower packing fraction than the initial powder heap due to three mechanisms: shear-induced dilation during the initiation of powder motion by the spreader; dilation and rearrangement due to powder motion through the gap; and the inertia of the particles in the deposited powder layer. It was shown that the process conditions control the contribution of these three mechanisms, and that the velocity profile in the shear layer in front of the gap is critical to the final deposited layer packing fraction. The higher the mean normalised velocity in the shear layer the lower the deposited layer packing fraction. The gap thickness and the spreader blade velocity affect the properties of the deposited layer; with the former increasing its packing fraction and the latter decreasing it. The analysis presented in this study could be adapted to powders of different materials, morphologies and surface properties.},
+  file = {C:\Users\tamzi\Zotero\storage\EVTGKHTY\Fouda and Bayly - 2019 - A DEM study of powder spreading in additive layer manufacturing.pdf}
 }
 
 @article{fullerDigitalTwinEnabling2020,
@@ -254,6 +319,27 @@
   keywords = {Mathematics and computing,Mechanical engineering,Mechanical properties,Metals and alloys}
 }
 
+@article{johnsonMonitoringModelingStatistical2024,
+  title = {Monitoring, {{Modeling}}, and {{Statistical Analysis}} in {{Metal Additive Manufacturing}}: {{A Review}}},
+  shorttitle = {Monitoring, {{Modeling}}, and {{Statistical Analysis}} in {{Metal Additive Manufacturing}}},
+  author = {Johnson, Grant A. and Dolde, Matthew M. and Zaugg, Jonathan T. and Quintana, Maria J. and Collins, Peter C.},
+  date = {2024-11-29},
+  journaltitle = {Materials},
+  shortjournal = {Materials (Basel)},
+  volume = {17},
+  number = {23},
+  eprint = {39685308},
+  eprinttype = {pubmed},
+  pages = {5872},
+  issn = {1996-1944},
+  doi = {10.3390/ma17235872},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC11643551/},
+  urldate = {2026-02-05},
+  abstract = {Despite the significant advances made involving the additive manufacturing (AM) of metals, including those related to both materials and processes, challenges remain in regard to the rapid qualification and insertion of such materials into applications. In general, understanding the process–microstructure–property interrelationships is essential. To successfully understand these interrelationships on a process-by-process basis and exploit such knowledge in practice, leveraging monitoring, modeling, and statistical analysis is necessary. Monitoring allows for the identification and measurement of parameters and features associated with important physical processes that may vary spatially and temporally during the AM processes that will influence part properties, including spatial variations within a single part and part-to-part variability, and, ultimately, quality. Modeling allows for the prediction of physical processes, material states, and properties of future builds by creating material state abstractions that can then be tested or evolved virtually. Statistical analysis permits the data from monitoring to inform modeling, and vice versa, under the added consideration that physical measurements and mathematical abstractions contain uncertainties. Throughout this review, the feedstock, energy source, melt pool, defects, compositional distribution, microstructure, texture, residual stresses, and mechanical properties are examined from the points of view of monitoring, modeling, and statistical analysis. As with most active research subjects, there remain both possibilities and limitations, and these will be considered and discussed as appropriate.},
+  pmcid = {PMC11643551},
+  file = {C:\Users\tamzi\Zotero\storage\VLFCTE5K\Johnson et al. - 2024 - Monitoring, Modeling, and Statistical Analysis in Metal Additive Manufacturing A Review.pdf}
+}
+
 @article{jyeniskhanExploringIntegrationDigital2024,
   title = {Exploring the Integration of Digital Twin and Additive Manufacturing Technologies},
   author = {Jyeniskhan, Nursultan and Shomenov, Kemel and Ali, Md Hazrat and Shehab, Essam},
@@ -323,6 +409,20 @@
   langid = {english}
 }
 
+@article{liStochasticAdditiveManufacturing2022,
+  title = {Stochastic Additive Manufacturing Simulation: From Experiment to Surface Roughness and Porosity Prediction},
+  shorttitle = {Stochastic Additive Manufacturing Simulation},
+  author = {Li, Yangfan and Lu, Ye and Amin, Abdullah Al and Liu, Wing Kam},
+  date = {2022},
+  publisher = {arXiv},
+  doi = {10.48550/ARXIV.2208.02907},
+  url = {https://arxiv.org/abs/2208.02907},
+  urldate = {2026-02-05},
+  abstract = {Deterministic computational modeling of laser powder bed fusion (LPBF) process fails to capture irregularities and roughness of the scan track, unless expensive powder-scale analysis is used. In this work we developed a stochastic computational modeling framework based on Markov Chain Monte Carlo (MCMC) capable of capturing the irregularities of LPBF scan. The model is calibrated against AFRL single track scan data using a specially designed tensor decomposition method, i.e., Higher-Order Proper Generalized Decomposition (HOPGD) that relies on non-intrusive data learning and construction of reduced order surrogate models. Once calibrated, the stochastic model can be used to predict the roughness and porosity at part scale at a significantly reduced computational cost compared to detailed powder-scale deterministic simulations. The stochastic simulation predictions are validated against AFRL multi-layer and multitrack experiments and reported as more accurate when compared with regular deterministic simulation results.},
+  version = {1},
+  keywords = {Computational Engineering Finance and Science (cs.CE),Data Analysis Statistics and Probability (physics.data-an),FOS: Computer and information sciences,FOS: Mathematics,FOS: Physical sciences,Numerical Analysis (math.NA)}
+}
+
 @article{liuDeepNeuralOperator2024,
   title = {Deep Neural Operator Enabled Digital Twin Modeling for Additive Manufacturing},
   author = {Liu, Ning and Li, Xuxiao and Rajanna, Manoj R. and Reutzel, Edward W. and Sawyer, Brady and Rao, Prahalada and Lua, Jim and Phan, Nam and Yu, Yue},
@@ -367,6 +467,25 @@
   urldate = {2026-01-28},
   abstract = {Purpose               The purpose of this research is to enhance the Laser Powder Bed Fusion (LPBF) additive manufacturing technique by addressing its susceptibility to defects, specifically lack of fusion. The primary goal is to optimize the LPBF process using a digital twin (DT) approach, integrating physics-based modeling and machine learning to predict the lack of fusion.                                         Design/methodology/approach               This research uses finite element modeling to simulate the physics of LPBF for an AISI 316L stainless steel alloy. Various process parameters are systematically varied to generate a comprehensive data set that captures the relationship between factors such as power and scan speed and the quality of fusion. A novel DT architecture is proposed, combining a classification model (recurrent neural network) with reinforcement learning. This DT model leverages real-time sensor data to predict the lack of fusion and adjusts process parameters through the reinforcement learning system, ensuring the system remains within a controllable zone.                                         Findings               This study's findings reveal that the proposed DT approach successfully predicts and mitigates the lack of fusion in the LPBF process. By using a combination of physics-based modeling and machine learning, the research establishes an efficient framework for optimizing fusion in metal LPBF processes. The DT's ability to adapt and control parameters in real time, guided by machine learning predictions, provides a promising solution to the challenges associated with lack of fusion, potentially overcoming the traditional and costly trial-and-error experimental approach.                                         Originality/value               Originality lies in the development of a novel DT architecture that integrates physics-based modeling with machine learning techniques, specifically a recurrent neural network and reinforcement learning.},
   langid = {english}
+}
+
+@article{mindtPowderBedLayer2016,
+  title = {Powder {{Bed Layer Characteristics}}: {{The Overseen First-Order Process Input}}},
+  shorttitle = {Powder {{Bed Layer Characteristics}}},
+  author = {Mindt, H. W. and Megahed, M. and Lavery, N. P. and Holmes, M. A. and Brown, S. G. R.},
+  date = {2016-08-01},
+  journaltitle = {Metallurgical and Materials Transactions A},
+  shortjournal = {Metall Mater Trans A},
+  volume = {47},
+  number = {8},
+  pages = {3811--3822},
+  issn = {1543-1940},
+  doi = {10.1007/s11661-016-3470-2},
+  url = {https://doi.org/10.1007/s11661-016-3470-2},
+  urldate = {2026-02-05},
+  abstract = {Powder Bed Additive Manufacturing offers unique advantages in terms of manufacturing cost, lot size, and product complexity compared to traditional processes such as casting, where a minimum lot size is mandatory to achieve economic competitiveness. Many studies—both experimental and numerical—are dedicated to the analysis of how process parameters such as heat source power, scan speed, and scan strategy affect the final material properties. Apart from the general urge to increase the build rate using thicker powder layers, the coating process and how the powder is distributed on the processing table has received very little attention to date. This paper focuses on the first step of every powder bed build process: Coating the process table. A numerical study is performed to investigate how powder is transferred from the source to the processing table. A solid coating blade is modeled to spread commercial Ti-6Al-4V powder. The resulting powder layer is analyzed statistically to determine the packing density and its variation across the processing table. The results are compared with literature reports using the so-called “rain” models. A parameter study is performed to identify the influence of process table displacement and wiper velocity on the powder distribution. The achieved packing density and how that affects subsequent heat source interaction with the powder bed is also investigated numerically.},
+  langid = {english},
+  keywords = {Discrete Element Method,Packing Density,Powder Layer,Powder Size Distribution,Processing Table}
 }
 
 @article{mukherjeeDigitalTwinRapid2019,
