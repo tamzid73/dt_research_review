@@ -141,6 +141,23 @@
   isbn = {978-989-758-648-4}
 }
 
+@article{baumgartlDeepLearningbasedModel2020,
+  title = {A Deep Learning-Based Model for Defect Detection in Laser-Powder Bed Fusion Using in-Situ Thermographic Monitoring},
+  author = {Baumgartl, Hermann and Tomas, Josef and Buettner, Ricardo and Merkel, Markus},
+  year = 2020,
+  month = sep,
+  journal = {Progress in Additive Manufacturing},
+  volume = {5},
+  number = {3},
+  pages = {277--285},
+  issn = {2363-9520},
+  doi = {10.1007/s40964-019-00108-3},
+  urldate = {2026-02-21},
+  abstract = {Additive manufacturing of metal components with laser-powder bed fusion is a very complex process, since powder has to be melted and cooled in each layer to produce a part. Many parameters influence the printing process; however, defects resulting from suboptimal parameter settings are usually detected after the process. To detect these defects during the printing, different process monitoring techniques such as melt pool monitoring or off-axis infrared monitoring have been proposed. In this work, we used a combination of thermographic off-axis imaging as data source and deep learning-based neural network architectures, to detect printing defects. For the network training, a k-fold cross validation and a hold-out cross validation were used. With these techniques, defects such as delamination and splatter can be recognized with an accuracy of 96.80\%. In addition, the model was evaluated with computing class activation heatmaps. The architecture is very small and has low computing costs, which means that it is suitable to operate in real time even on less powerful hardware.},
+  langid = {english},
+  keywords = {Additive manufacturing,Convolutional neural networks,Machine learning,Quality assurance}
+}
+
 @article{bayatMultiphysicsModellingLackoffusion2019,
   title = {Multiphysics Modelling of Lack-of-Fusion Voids Formation and Evolution in {{IN718}} Made by Multi-Track/Multi-Layer {{L-PBF}}},
   author = {Bayat, Mohamad and Mohanty, Sankhya and Hattel, Jesper Henri},
@@ -238,6 +255,21 @@
   urldate = {2026-02-18},
   abstract = {Laser-based additive manufacturing offers a promising route for 3D printing of metallic parts. We evidence experimentally a particular columnar solidification microstructure in a laser-powder-bed-fusion-processed Inconel 718 nickel-based alloy, which we interpret using phase-field simulations and classical dendritic growth theories. Owing to the large temperature gradient and cooling rate, solidification takes places through dendritic arrays wherein the characteristic length scales, i.e., tip radius, diffusion length, and primary spacing, are of the same order. This leads to a weak mutual interaction between dendrite tips and a drastic reduction of side branching. The resulting irregular cellularlike solidification pattern then remains stable on time scales comparable to the complete melt pool solidification, as observed in the as-built material.},
   file = {C\:\\Users\\tamzi\\Zotero\\storage\\7TCZJQQ9\\Boussinot et al. - 2019 - Strongly Out-of-Equilibrium Columnar Solidification During Laser Powder-Bed Fusion in Additive Manuf.pdf;C\:\\Users\\tamzi\\Zotero\\storage\\YRPBG36P\\PhysRevApplied.11.html}
+}
+
+@article{caiPhysicsInformedNeuralNetworks2021,
+  title = {Physics-{{Informed Neural Networks}} for {{Heat Transfer Problems}}},
+  author = {Cai, Shengze and Wang, Zhicheng and Wang, Sifan and Perdikaris, Paris and Karniadakis, George Em},
+  year = 2021,
+  month = apr,
+  journal = {Journal of Heat Transfer},
+  volume = {143},
+  number = {060801},
+  issn = {0022-1481},
+  doi = {10.1115/1.4050542},
+  urldate = {2026-02-21},
+  abstract = {Physics-informed neural networks (PINNs) have gained popularity across different engineering fields due to their effectiveness in solving realistic problems with noisy data and often partially missing physics. In PINNs, automatic differentiation is leveraged to evaluate differential operators without discretization errors, and a multitask learning problem is defined in order to simultaneously fit observed data while respecting the underlying governing laws of physics. Here, we present applications of PINNs to various prototype heat transfer problems, targeting in particular realistic conditions not readily tackled with traditional computational methods. To this end, we first consider forced and mixed convection with unknown thermal boundary conditions on the heated surfaces and aim to obtain the temperature and velocity fields everywhere in the domain, including the boundaries, given some sparse temperature measurements. We also consider the prototype Stefan problem for two-phase flow, aiming to infer the moving interface, the velocity and temperature fields everywhere as well as the different conductivities of a solid and a liquid phase, given a few temperature measurements inside the domain. Finally, we present some realistic industrial applications related to power electronics to highlight the practicality of PINNs as well as the effective use of neural networks in solving general heat transfer problems of industrial complexity. Taken together, the results presented herein demonstrate that PINNs not only can solve ill-posed problems, which are beyond the reach of traditional computational methods, but they can also bridge the gap between computational and experimental heat transfer.},
+  file = {C\:\\Users\\tamzi\\Zotero\\storage\\B8XIB9W6\\Cai et al. - 2021 - Physics-Informed Neural Networks for Heat Transfer Problems.pdf;C\:\\Users\\tamzi\\Zotero\\storage\\5URT3LMF\\1.html}
 }
 
 @article{caoSimulationAnalysisLPBF2021,
@@ -931,6 +963,24 @@
   keywords = {Mathematics and computing,Mechanical engineering,Mechanical properties,Metals and alloys}
 }
 
+@article{jayasingheAutomaticQualityAssessments2022,
+  title = {Automatic Quality Assessments of Laser Powder Bed Fusion Builds from Photodiode Sensor Measurements},
+  author = {Jayasinghe, Sarini and Paoletti, Paolo and Sutcliffe, Chris and Dardis, John and Jones, Nick and Green, Peter L.},
+  year = 2022,
+  month = apr,
+  journal = {Progress in Additive Manufacturing},
+  volume = {7},
+  number = {2},
+  pages = {143--160},
+  issn = {2363-9520},
+  doi = {10.1007/s40964-021-00219-w},
+  urldate = {2026-02-21},
+  abstract = {While Laser powder bed fusion (L-PBF) machines have greatly improved in recent years, the L-PBF process is still susceptible to several types of defect formation. Among the monitoring methods that have been explored to detect these defects, camera-based systems are the most prevalent. However, using only photodiode measurements to monitor the build process has potential benefits, as photodiode sensors are cost-efficient and typically have a higher sample rate compared to cameras. This study evaluates whether a combination of photodiode sensor measurements, taken during L-PBF builds, can be used to predict measures of the resulting build quality via a purely data-based approach. Using several unsupervised clustering approaches build density is classified with up to 93.54\% accuracy using features extracted from three different photodiodes, as well as observations relating to the energy transferred to the material. Subsequently, a supervised learning method (Gaussian Process regression) is used to directly predict build density with a RMS error of 3.65\%. The study, therefore, shows the potential for machine-learning algorithms to predict indicators of L-PBF build quality from photodiode build measurements only. This study also shows that, relative to the L-PBF process parameters, photodiode measurements can contribute to additional information regarding L-PBF part quality. Moreover, the work herein describes approaches that are predominantly probabilistic, thus facilitating uncertainty quantification in machine-learnt predictions of L-PBF build quality.},
+  langid = {english},
+  keywords = {Automatic quality assessment,Laser powder bed fusion,Machine learning,Uncertainty quantification},
+  file = {C:\Users\tamzi\Zotero\storage\KYLE8TKH\Jayasinghe et al. - 2022 - Automatic quality assessments of laser powder bed fusion builds from photodiode sensor measurements.pdf}
+}
+
 @article{jinBigDataMachine2024,
   title = {Big Data, Machine Learning, and Digital Twin Assisted Additive Manufacturing: {{A}} Review},
   shorttitle = {Big Data, Machine Learning, and Digital Twin Assisted Additive Manufacturing},
@@ -1166,6 +1216,22 @@
   file = {C\:\\Users\\tamzi\\Zotero\\storage\\5ACZSY5N\\Liang et al. - 2022 - Effects of rescanning parameters on densification and microstructural refinement of 316L stainless s.pdf;C\:\\Users\\tamzi\\Zotero\\storage\\SJ276FXY\\S092401362200005X.html}
 }
 
+@article{liModellingKeyholeDynamics2022,
+  title = {Modelling of Keyhole Dynamics and Melt Pool Flow in Laser Powder Bed Fusion Process},
+  author = {Li, Erlei and Zhou, Zongyan and Wang, Lin and Zou, Ruiping and Yu, Aibing},
+  year = 2022,
+  month = mar,
+  journal = {Powder Technology},
+  volume = {400},
+  pages = {117262},
+  issn = {0032-5910},
+  doi = {10.1016/j.powtec.2022.117262},
+  urldate = {2026-02-21},
+  abstract = {The keyhole dynamics in the laser powder bed fusion (LPBF) process and its relationship with driving forces of surface tension, Marangoni force and recoil pressure have not been well addressed and quantified. In this work, through the modelling of melt pool dynamics, the keyhole life cycle including formation and drilling, fluctuation, and disappearance is captured. The results show that pores are sourced from the powder bed voids, the ejected keyhole protrusion, and the liquid eroded gas bubbles at the end of the track. An anticlockwise vortex is generated at the rear of melt pool, and the molten liquid travels in a clockwise path ahead of the melt pool. The variation of the powder layer thickness breaks the force equilibrium on the keyhole rim and leads to the depth fluctuation. The compressed rear keyhole is dominated by the surface tension, and the expanded front rim is controlled by the recoil pressure.},
+  keywords = {Fluctuation,Keyhole,Laser powder bed fusion,Melt pool dynamics,Recoil pressure},
+  file = {C:\Users\tamzi\Zotero\storage\DNBPDG44\S0032591022001565.html}
+}
+
 @article{liStochasticAdditiveManufacturing2022,
   title = {Stochastic Additive Manufacturing Simulation: From Experiment to Surface Roughness and Porosity Prediction},
   shorttitle = {Stochastic Additive Manufacturing Simulation},
@@ -1241,6 +1307,20 @@
   abstract = {Powder Bed Additive Manufacturing offers unique advantages in terms of manufacturing cost, lot size, and product complexity compared to traditional processes such as casting, where a minimum lot size is mandatory to achieve economic competitiveness. Many studies---both experimental and numerical---are dedicated to the analysis of how process parameters such as heat source power, scan speed, and scan strategy affect the final material properties. Apart from the general urge to increase the build rate using thicker powder layers, the coating process and how the powder is distributed on the processing table has received very little attention to date. This paper focuses on the first step of every powder bed build process: Coating the process table. A numerical study is performed to investigate how powder is transferred from the source to the processing table. A solid coating blade is modeled to spread commercial Ti-6Al-4V powder. The resulting powder layer is analyzed statistically to determine the packing density and its variation across the processing table. The results are compared with literature reports using the so-called ``rain'' models. A parameter study is performed to identify the influence of process table displacement and wiper velocity on the powder distribution. The achieved packing density and how that affects subsequent heat source interaction with the powder bed is also investigated numerically.},
   langid = {english},
   keywords = {Discrete Element Method,Packing Density,Powder Layer,Powder Size Distribution,Processing Table}
+}
+
+@article{mojumderMultimodalLearningMelt2026,
+  title = {Multimodal Learning of Melt Pool Dynamics in Laser Powder Bed Fusion},
+  author = {Mojumder, Satyajit and Halder, Pallock and Tonge, Tiana},
+  year = 2026,
+  month = jan,
+  journal = {Progress in Additive Manufacturing},
+  issn = {2363-9520},
+  doi = {10.1007/s40964-025-01496-5},
+  urldate = {2026-02-21},
+  abstract = {While multiple sensors are used for real-time monitoring in additive manufacturing, not all provide practical or reliable process insights. For example, high-speed X-ray imaging offers valuable spatial information about subsurface melt pool behavior but is costly and impractical for most industrial settings. In contrast, absorptivity data from low-cost photodiodes correlate with melt pool dynamics but is often too noisy for accurate prediction when used alone. In this paper, we propose a multimodal data fusion approach for predicting melt pool dynamics by combining high-fidelity X-ray data with low-fidelity absorptivity data in the Laser Powder Bed Fusion (LPBF) process. Our multimodal learning framework integrates convolutional neural networks (CNNs) for spatial feature extraction from spot and scan laser X-ray images with recurrent neural networks (RNNs) for temporal feature extraction from absorptivity signals, using an early fusion strategy. The multimodal model is further used as a transfer learning model to fine-tune the RNN branch that can predict melt pool dynamics only with absorptivity data, with comparable accuracy to the multimodal model. Results show that training with both modalities significantly improves prediction accuracy compared to a single modality. Furthermore, once trained, the model can infer melt pool features using only absorptivity data, eliminating the need for expensive X-ray imaging. This multimodal fusion approach enables cost-effective, real-time monitoring and has broad applicability in additive manufacturing.},
+  langid = {english},
+  keywords = {CNN,Laser powder bed fusion,Melt pool dynamics,Multimodal fusion,RNN,Transfer learning}
 }
 
 @article{mukherjeeDigitalTwinRapid2019,
@@ -1538,6 +1618,39 @@
   keywords = {Computational Engineering Finance and Science (cs.CE),FOS: Computer and information sciences}
 }
 
+@article{saundersAdditiveManufacturingMelt2022,
+  title = {Additive {{Manufacturing Melt Pool Prediction}} and {{Classification}} via {{Multifidelity Gaussian Process Surrogates}}},
+  author = {Saunders, Robert and Rawlings, Anna and Birnbaum, Andrew and Iliopoulos, Athanasios and Michopoulos, John and Lagoudas, Dimitris and Elwany, Alaa},
+  year = 2022,
+  month = dec,
+  journal = {Integrating Materials and Manufacturing Innovation},
+  volume = {11},
+  number = {4},
+  pages = {497--515},
+  issn = {2193-9772},
+  doi = {10.1007/s40192-022-00276-1},
+  urldate = {2026-02-21},
+  abstract = {It is well known that the process parameters chosen in metal additive manufacturing (AM) are directly related to the melt pool dimensions, which can be related to microstructure characteristics, properties, and printability. Thus, the determination of melt pool dimensions and resulting printability, given a set of process parameters, is crucial to understanding the performance of AM parts. Unfortunately, experiments relating process parameters to the melt pool have a high execution and data collection cost. On the other hand, simulations do not suffer this cost penalty but can never be as good as the ground truth experiments. A number of capabilities exist to predict melt pool geometry from process parameters that range from highly accurate codes with long simulation times to less accurate analytical solutions that are nearly instantaneous. This work leverages multifidelity Gaussian process (GP) surrogates to examine how the fusion of information from different fidelities, including experiments, influences the resulting predictive model. Both a multifidelity GP regression and a novel multifidelity GP classification are examined. The multifidelity models are compared to standard GPs and a withheld set of test data. The results show good predictive accuracy for the melt pool width and depth, but suggest multifidelity models may not significantly improve classification of printability.},
+  langid = {english},
+  keywords = {Melt pool prediction,Metal additive manufacturing,Printability,Surrogate modeling}
+}
+
+@article{scimeMultiscaleConvolutionalNeural2018,
+  title = {A Multi-Scale Convolutional Neural Network for Autonomous Anomaly Detection and Classification in a Laser Powder Bed Fusion Additive Manufacturing Process},
+  author = {Scime, Luke and Beuth, Jack},
+  year = 2018,
+  month = dec,
+  journal = {Additive Manufacturing},
+  volume = {24},
+  pages = {273--286},
+  issn = {2214-8604},
+  doi = {10.1016/j.addma.2018.09.034},
+  urldate = {2026-02-21},
+  abstract = {In-situ detection of processing defects is a critical challenge for Laser Powder Bed Fusion Additive Manufacturing. Many of these defects are related to interactions between the recoater blade, which spreads the powder, and the powder bed. This work leverages Deep Learning, specifically a Convolutional Neural Network (CNN), for autonomous detection and classification of many of these spreading anomalies. Importantly, the input layer of the CNN is modified to enable the algorithm to learn both the appearance of the powder bed anomalies as well as key contextual information at multiple size scales. These modifications to the CNN architecture are shown to improve the flexibility and overall classification accuracy of the algorithm while mitigating many human biases. A case study is used to demonstrate the utility of the presented methodology and the overall performance is shown to be superior to that of methodologies previously reported by the authors.},
+  keywords = {Additive manufacturing,Computer vision,Convolutional Neural Network (CNN),In-situ process monitoring,Machine learning},
+  file = {C\:\\Users\\tamzi\\Zotero\\storage\\FQJYVGKV\\Scime and Beuth - 2018 - A multi-scale convolutional neural network for autonomous anomaly detection and classification in a.pdf;C\:\\Users\\tamzi\\Zotero\\storage\\N9GX6SRG\\S2214860418305165.html}
+}
+
 @article{scipionibertoliInsituCharacterizationLaserpowder2017,
   title = {In-Situ Characterization of Laser-Powder Interaction and Cooling Rates through High-Speed Imaging of Powder Bed Fusion Additive Manufacturing},
   author = {Scipioni Bertoli, Umberto and Guss, Gabe and Wu, Sheldon and Matthews, Manyalibo J. and Schoenung, Julie M.},
@@ -1585,6 +1698,22 @@
   abstract = {Manufacturing enterprises are facing the need to align themselves to the new information technologies (IT) and respond to the new challenges of variable market demand. One of the key enablers of this IT revolution toward Smart Manufacturing is the digital twin (DT). It embeds a ``virtual'' image of the reality constantly synchronized with the real operating scenario to provide sound information (knowledge model) to reality interpretation model to draw sound decisions. The paper aims at providing an up-to date picture of the main DT components, their features and interaction problems. The paper aims at clearly tracing the ongoing research and technical challenges in conceiving and building DTs as well, according to different application domains and related technologies. To this purpose, the main questions answered here are: `What is a Digital Twin?'; `Where is appropriate to use a Digital Twin?'; `When has a Digital Twin to be developed?'; `Why should a Digital Twin be used?'; `How to design and implement a Digital Twin?'; `What are the main challenges of implementing a Digital Twin?'. This study tries to answer to the previous questions funding on a wide systematic literature review of scientific research, tools, and technicalities in different application domains.},
   keywords = {Cyber-physical systems,Digital twin,Industry 4.0,Predictive manufacturing},
   file = {C\:\\Users\\tamzi\\Zotero\\storage\\QWIPWJXU\\Semeraro et al. - 2021 - Digital twin paradigm A systematic literature review.pdf;C\:\\Users\\tamzi\\Zotero\\storage\\8NKXQFWI\\S0166361521000762.html}
+}
+
+@article{shuklaAcousticEmissionDirectionality2026,
+  title = {Acoustic Emission Directionality of the Melt Pool in Laser Powder Bed Fusion Additive Manufacturing},
+  author = {Shukla, Shivam and Vaerenberg, Rik and Nasab, Milad Hamidi and Gryllias, Konstantinos and Vrancken, Bey},
+  year = 2026,
+  month = feb,
+  journal = {Additive Manufacturing},
+  volume = {118},
+  pages = {105096},
+  issn = {2214-8604},
+  doi = {10.1016/j.addma.2026.105096},
+  urldate = {2026-02-21},
+  abstract = {Vibro-acoustic monitoring has emerged as a promising approach for process monitoring and control in laser powder bed fusion (LPBF). Its high temporal resolution and capability to capture events occurring on the microsecond scale can assist in developing a comprehensive understanding of complex melt pool dynamics and laser-material interaction. However, the physical linkage between the acoustic signal and the process remains a challenge. This work attempts to uncover the complex mechanism of the LPBF process by understanding acoustic signals and linking them with the actual physical conditions. A microphone is used to capture the acoustic emissions (AE) generated from the processing zone. Additionally, an on-axis high-speed camera is used for melt pool monitoring and spatter tracking. Analyzing AE signals shows that signal energy fluctuations within the frequency band of 100--250\,kHz are influenced by changes in inherent processing conditions, such as scan direction and the orientation of the vector sequence direction. These fluctuations are correlated with backward vapor plume, melt pool asymmetry, and spatter ejection during layer processing. The study further reveals that during processing, the spatter ejects toward the built side of the layer. As most of the previous work on the use of acoustic emission monitoring of laser powder bed fusion relied heavily on machine learning (ML) for regime classification and anomaly detection, correlating acoustic signals with the actual physical events will add to data labeling by providing complementary contextual information, thereby enhancing the performance of these models. Additionally, this contextual information is a prerequisite to be able to advance acoustic monitoring from the layer level to the more local defect level.},
+  keywords = {Acoustic emission monitoring,Additive manufacturing,Laser powder bed fusion,Signal processing,Spatter tracking},
+  file = {C:\Users\tamzi\Zotero\storage\UBV9PVZU\S2214860426000229.html}
 }
 
 @article{singhDigitalTwinOrigin2021,
@@ -1707,6 +1836,23 @@
   doi = {10.1108/RPJ-03-2023-0113},
   urldate = {2026-01-27},
   abstract = {This study aims to discuss the state-of-the-art digital factory (DF) development combining digital twins (DTs), sensing devices, laser additive manufacturing (LAM) and subtractive manufacturing (SM) processes. The current shortcomings and outlook of the DF also have been highlighted. A DF is a state-of-the-art manufacturing facility that uses innovative technologies, including automation, artificial intelligence (AI), the Internet of Things, additive manufacturing (AM), SM, hybrid manufacturing (HM), sensors for real-time feedback and control, and a DT, to streamline and improve manufacturing operations.This study presents a novel perspective on DF development using laser-based AM, SM, sensors and DTs. Recent developments in laser-based AM, SM, sensors and DTs have been compiled. This study has been developed using systematic reviews and meta-analyses (PRISMA) guidelines, discussing literature on the DTs for laser-based AM, particularly laser powder bed fusion and direct energy deposition, in-situ monitoring and control equipment, SM and HM. The principal goal of this study is to highlight the aspects of DF and its development using existing techniques.A comprehensive literature review finds a substantial lack of complete techniques that incorporate cyber-physical systems, advanced data analytics, AI, standardized interoperability, human--machine cooperation and scalable adaptability. The suggested DF effectively fills this void by integrating cyber-physical system components, including DT, AM, SM and sensors into the manufacturing process. Using sophisticated data analytics and AI algorithms, the DF facilitates real-time data analysis, predictive maintenance, quality control and optimal resource allocation. In addition, the suggested DF ensures interoperability between diverse devices and systems by emphasizing standardized communication protocols and interfaces. The modular and adaptable architecture of the DF enables scalability and adaptation, allowing for rapid reaction to market conditions.Based on the need of DF, this review presents a comprehensive approach to DF development using DTs, sensing devices, LAM and SM processes and provides current progress in this domain.}
+}
+
+@article{thankiMeltPoolFeature2022,
+  title = {Melt Pool Feature Analysis Using a High-Speed Coaxial Monitoring System for Laser Powder Bed Fusion of {{Ti-6Al-4~V}} Grade 23},
+  author = {Thanki, Aditi and Goossens, Louca and Ompusunggu, Agusmian Partogi and Bayat, Mohamad and {Bey-Temsamani}, Abdellatif and Van Hooreweder, Brecht and Kruth, Jean-Pierre and Witvrouw, Ann},
+  year = 2022,
+  month = jun,
+  journal = {The International Journal of Advanced Manufacturing Technology},
+  volume = {120},
+  number = {9},
+  pages = {6497--6514},
+  issn = {1433-3015},
+  doi = {10.1007/s00170-022-09168-2},
+  urldate = {2026-02-21},
+  abstract = {In laser powder bed fusion (LPBF), defects such as pores or cracks can seriously affect the final part quality and lifetime. Keyhole porosity, being one type of porosity defects in LPBF, results from excessive energy density which may be due to changes in process parameters (namely, laser power and scan speed) and/or result from the part's geometry and/or hatching strategies. To study the possible occurrence of keyhole pores, experimental work and simulations were carried out for optimum and high volumetric energy density conditions in Ti-6Al-4~V grade 23. By decreasing the scanning speed from 1000 to 500~mm/s for a fixed laser power of 170~W, keyhole porosities are formed and later observed by X-ray computed tomography. Melt pool images are recorded in real-time during the LPBF process by using a high-speed coaxial Near-Infrared (NIR) camera monitoring system. The recorded images are then pre-processed using a set of image processing steps to generate binary images. From the binary images, geometrical features of the melt pool and features that characterize the spatter particle formation and ejection from the melt pool are calculated. The experimental data clearly show spatter patterns in case of keyhole porosity formation at low scan speed. A correlation between number of pores and amount of spatter is observed. Besides the experimental work, a previously developed high fidelity finite volume numerical model was used to simulate the melt pool dynamics with similar process parameters as used during the experiments. Simulation results illustrate and confirm the keyhole porosity formation by decreasing laser scan speed.},
+  langid = {english},
+  keywords = {Finite volume modelling,Keyhole porosity,Laser powder bed fusion (LPBF),Melt pool monitoring,Spatter analysis,X-ray computed tomography (X-CT)}
 }
 
 @article{thompsonDesignAdditiveManufacturing2016,
@@ -1844,6 +1990,22 @@
   file = {C:\Users\tamzi\Zotero\storage\YLAN4UNE\Whiting and Fox - CHARACTERIZATION OF FEEDSTOCK IN THE POWDER BED FUSION PROCESS SOURCES OF VARIATION IN PARTICLE SIZ.pdf}
 }
 
+@article{woodExperimentalValidationEnsemble2026,
+  title = {Experimental Validation of the {{Ensemble Kalman Filter}} as a {{Laser Powder Bed Fusion}} Digital Twin},
+  author = {Wood, Nathaniel and Schwalbach, Edwin and Donegan, Sean and Gillman, Andrew and Hoelzle, David J.},
+  year = 2026,
+  month = feb,
+  journal = {Additive Manufacturing},
+  volume = {117},
+  pages = {105054},
+  issn = {2214-8604},
+  doi = {10.1016/j.addma.2025.105054},
+  urldate = {2026-02-21},
+  abstract = {This paper reports on the application of the Ensemble Kalman Filter (EnKF) as an Instantiated Digital Twin to estimate the temperature field inside a part being manufactured by laser powder bed fusion (L-PBF) for the purposes of in-process quality control and validation. The EnKF assimilates a physics-based model with experimental data for a feedback correction that compensates for model uncertainty. The paper describes the EnKF architecture and model development and demonstrates the effectiveness of EnKF under three subsets of PBF process physics: low temperature lasing which only induces heat conduction, nominal temperature lasing that introduces meltpool convection and radiation, and the full L-PBF processes thus introducing all modes of heat transfer for L-PBF. In comparison to the physics-based model without EnKF feedback, the EnKF demonstrates a reduction in temperature estimation error at the top surface of at least 94\% for all tests. At higher temperature processing, and thus increased EnKF model uncertainty, the EnKF exhibits spurious non-physical temperature estimates at isolated spatial locations, which must be filtered out and systematic methods to eliminate this issue are reserved for future work.},
+  keywords = {Digital twin,Ensemble Kalman Filter,Powder bed fusion,Process validation,Quality control,State estimation},
+  file = {C:\Users\tamzi\Zotero\storage\PBDMNRY9\S2214860425004191.html}
+}
+
 @article{yanDatadrivenCharacterizationThermal2020,
   title = {Data-Driven Characterization of Thermal Models for Powder-Bed-Fusion Additive Manufacturing},
   author = {Yan, Wentao and Lu, Yan and Jones, Kevontrez and Yang, Zhuo and Fox, Jason and Witherell, Paul and Wagner, Gregory and Liu, Wing Kam},
@@ -1888,8 +2050,7 @@
   doi = {10.1016/j.powtec.2025.122060},
   urldate = {2026-02-14},
   abstract = {Laser powder bed fusion (LPBF) has been widely applied in additive manufacturing, yet the link between microscale powder-bed quality and the macroscale process window of 316~L stainless steel remains insufficiently understood. In this work, a comprehensive numerical model was developed by integrating the discrete element method (DEM) for powder bed deposition and computational fluid dynamics (CFD) for molten pool dynamics. The model was thoroughly validated against experimental data and subsequently employed to investigate the effects of key operating parameters (e.g., laser energy density and spot diameter) on keyhole evolution and defect formation in LPBF. The results indicate that a 100~{$\mu$}m powder bed provides the optimal balance between uniformity, packing quality, and process suitability, whereas thinner layers (e.g., 60~{$\mu$}m) result in severe particle loss and poor powder bed formation. Recoil pressure produces narrower and deeper molten pools, reaching peak temperatures above 5000~K and inducing intensified fluid flow. Different combinations of laser power and scanning speed cause four distinct melting mechanisms: lack-of-fusion, balling, molten pool depression, and keyhole formation. Appropriate parameter selection within the process window can balance molten pool stability and fabrication efficiency, enabling defect-free melt tracks. These findings are expected to offer guidance for selecting optimal processing parameters to improve part quality and ensure process stability.},
-  keywords = {Keyhole dynamics,Laser powder bed fusion,Process window,Recoil pressure,Volume of fluid},
-  file = {C:\Users\tamzi\Zotero\storage\U4LCRYYE\S003259102501455X.html}
+  keywords = {Keyhole dynamics,Laser powder bed fusion,Process window,Recoil pressure,Volume of fluid}
 }
 
 @article{yaoManufacturingDefectinducedMultiscale2025,
